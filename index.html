@@ -9,6 +9,23 @@
 </head>
 <body>
   <div class="container" role="main">
+
+    <section class="main" aria-labelledby="welcome">
+      <div class="hero">
+        <div class="hero-left">
+          <h2 id="welcome">Hi, I'm Issa.</h2>
+        </div>
+
+        <nav class="nav">
+            <button class="btn"></button>
+            <button class="btn" id="project">Projects</button>
+            <button class="btn" id="resume">Resume</button>
+            <button class="btn" id="contact-info">Contact Info</button>
+        </nav>
+      </div>
+    
+    </section>
+
     <aside class="sidebar" aria-labelledby="profile-heading">
       <div class="avatar" aria-hidden="true">II</div>
       <div class="contact-list" aria-label="Contact information">
@@ -52,47 +69,38 @@
 
     </aside>
 
-    <section class="main" aria-labelledby="welcome">
-      <div class="hero">
-        <div class="hero-left">
-          <h2 id="welcome">Hi, I'm Issa.</h2>
-          <p>Computer System Technician student building reliable systems, automating tasks with scripting, and solving real-world technical problems. I focus on practical, documented solutions and clear communication. View my resume <a href="../Documents/Issa Issa.docx" download>here</a></p>
+    <div id="projects" class="section-title" style="margin-top:28px;color: burlywood; text-shadow: 1px 1px 1px purple; font-size: 35px;">Projects</div>
+    <div class="grid">
+      <div class="card project-card">
+        <div class="project-thumb">Deploy a small business server (Windows + AD)</div>
+        <div>
+          <div class="project-meta"><strong>Small Business Server Build</strong><span>November 2025</span></div>
+          <div class="tags"><span class="tag">Windows Server</span><span class="tag">Active Directory</span><span class="tag">Group Policy</span></div>
+          <p class="muted">Designed a multi-role Windows Server, documented GPOs and backup procedures.</p>
         </div>
       </div>
 
-      <div id="projects" class="section-title" style="margin-top:28px; color: burlywood; text-shadow: 1px 1px 1px purple; font-size: 35px;">Projects</div>
-      <div class="grid">
-
-        <div class="card project-card">
-          <div class="project-thumb">Deploy a small business server (Windows + AD)</div>
-          <div>
-            <div class="project-meta"><strong>Small Business Server Build</strong><span>November 2025</span></div>
-            <div class="tags"><span class="tag">Windows Server</span><span class="tag">Active Directory</span><span class="tag">Group Policy</span></div>
-            <p class="muted">Designed a multi-role Windows Server, documented GPOs and backup procedures.</p>
-          </div>
+      <div class="card project-card">
+        <div class="project-thumb">Network troubleshooting and VLAN design</div>
+        <div>
+          <div class="project-meta"><strong>VLAN & Network Troubleshoot</strong><span>Oct 2025</span></div>
+          <div class="tags"><span class="tag">VLAN</span><span class="tag">Wireshark</span><span class="tag">Documentation</span></div>
+          <p class="muted">Identified and fixed inter-VLAN routing issues.</p>
         </div>
+      </div>
 
-        <div class="card project-card">
-          <div class="project-thumb">Network troubleshooting and VLAN design</div>
-          <div>
-            <div class="project-meta"><strong>VLAN & Network Troubleshoot</strong><span>Oct 2025</span></div>
-            <div class="tags"><span class="tag">VLAN</span><span class="tag">Wireshark</span><span class="tag">Documentation</span></div>
-            <p class="muted">Identified and fixed inter-VLAN routing issues.</p>
-          </div>
-        </div>
-
-        <div class="card project-card">
-          <div class="project-thumb">Automated backups using bash and rsync</div>
+      <div class="card project-card">
+        <div class="project-thumb">Automated backups using bash and rsync</div>
           <div>
             <div class="project-meta"><strong>Backup Automation</strong><span>November 2025</span></div>
             <div class="tags"><span class="tag">Linux</span><span class="tag">Bash</span><span class="tag">rsync</span></div>
             <p class="muted">Created incremental backup scripts with rotation and reporting.</p>
           </div>
-        </div>
       </div>
+    </div>
 
       <footer>Available for internships & co-ops</footer>
-    </section>
+
   </div>
 </body>
 </html>
