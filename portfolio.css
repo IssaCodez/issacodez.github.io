@@ -26,12 +26,11 @@ html, body {
 
 .contact-info {
   display: flex;
-  flex-direction: row;
   gap: 20px;
-  align-items: flex-start;
-  width: 100%;
-  min-height: 0;        
+  min-height: 0;       
 }
+
+
 
 @media (max-width: 1100px), (max-height: 700px) {
   html, body {
@@ -54,7 +53,7 @@ html, body {
   min-width: 220px;
   background: #1a1a1a;
   border-radius: 14px;
-  padding: 25px 20px;
+  padding: 20px 20px;
   flex-shrink: 0;
   height: fit-content;
   
@@ -103,6 +102,10 @@ html, body {
   font-size: 1.1rem;
   font-weight: 600;
   color: burlywood;
+}
+
+.ed {
+    padding: 5px 0;
 }
 
 .skill { margin-bottom: 10px; }
@@ -253,14 +256,6 @@ html, body {
   display: flex;
   gap: 10px;
   margin-bottom: 14px;
-}
-
-footer {
-  text-align: center;
-  padding: 20px 0 0 0;
-  opacity: 0.6;
-  font-size: 0.95rem;
-  bottom: 0;
 }
 
 
